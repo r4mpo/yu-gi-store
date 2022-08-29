@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+* {
+    font-family: 'Archivo Narrow', sans-serif;    
+}
+
+.header {
+    border-bottom: 1px solid #ffc100;
+}
+
+.headerText:hover a, .headerText:hover p {
+    color:#ffc100;
+    cursor:pointer;
+}
+
+.footer {
+    border-top: 1px solid #ffc100;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #9a0056;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    height: 15px;
+    line-height: 1px;
+}
+
+.footer a {
+    color: #ffc100;
+    text-decoration: none;
+}
+
+.CompletePage {
+    background-color: #003287;
+    overflow: hidden;
+}
+
+.CardsPosition {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 300px;
+}
+
+.Card {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.ButtonDetails {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    margin-left: 25px;
+    position: relative;
+    bottom: 3px;
+}
+
+.mediaCard {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ButtonDetails:hover
+{
+    background-color: #9a0056;
+    color: #ffc100;
+    border: 1px solid #003287;
+    margin-top: -5px;
+}
+
+.card-info {
+    border: 1px solid #ffc100;
+    margin-left: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 450px;
+    color:#9a0056;
+    background-color: #ffc100;
+}
+
+.button-Deck {
+    background-color: rgb(0, 92, 31);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 220px;
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+    border-color: rgb(0, 92, 31)
+}
+
+.button-Deck:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
